@@ -1,0 +1,28 @@
+/* Seletor Universal */
+* {
+    margin-left: 10px;
+}
+
+/* Selecionar pelo nome da TAG */
+h2 {
+    color: lightcoral;
+    font-size: 80px;
+    font-family: Arial;
+}
+
+/* Selecionar pelo ID */
+#brasil {
+    color: green;
+}
+
+/* Selecionar pela Classe */
+.paises {
+    width: 500px;
+    box-shadow: green;
+    border-radius: 5px;
+}
+
+/* Selecionar pela pseudo-classe */
+.paises:hover {
+    background-color: lightseagreen;
+}
